@@ -1,0 +1,24 @@
+{
+  "name": "express-browser-block",
+  "version": "1.0.0",
+  "description": "Express middleware to block browsers requests that do not satisfies the conditions",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "browser",
+    "express",
+    "conditions"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bowser": "^2.11.0"
+  },
+  "peerDependencies": {
+    "express": "^4.17.1"
+  }
+}
