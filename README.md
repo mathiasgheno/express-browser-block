@@ -1,4 +1,4 @@
-# Express Browser Upgrade
+# Express Browser Block
 
 Express middleware to block browsers requests that do not satisfies the conditions
 
@@ -29,7 +29,7 @@ app.listen(3000);
 
 ## API
 
-the `upgrade` functions accepts two parameters: `conditions` and `html`. 
+The `blockRequestIfBrowserIsNot` functions accepts two parameters: `conditions` and `html`. 
 
 The `conditions` parameter follows the definition of the [Browser](https://github.com/lancedikson/bowser#filtering-browsers) dependency. 
 
