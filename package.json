@@ -13,7 +13,7 @@
     "express",
     "conditions"
   ],
-  "author": "",
+  "author": "Mathias Gheno Azzolini <mathiasgheno@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "bowser": "^2.11.0"
